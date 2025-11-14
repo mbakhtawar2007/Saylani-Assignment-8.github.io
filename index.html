@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Table Clone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-family: Arial, sans-serif;
+            border: 2px solid black;
+        }
+
+        .table th,
+        .table td {
+            border: 1px solid black;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .table-heading {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table class="table">
+        <tr class="table-heading">
+            <th>Photo</th>
+            <th>Description</th>
+            <th>Price</th>
+        </tr>
+
+        <tr class="row row1">
+            <td class="photo"><img src="./Rhodes piano.jpg" alt="Rhodes piano" width="120"></td>
+            <td>The Rhodes piano is an electro-mechanical keyboard instrument created by Harold Rhodes. It uses hammers
+                that strike metal tines, which are then amplified using electromagnetic pickups.</td>
+            <td>$1400</td>
+        </tr>
+
+        <tr class="row row2">
+            <td class="photo"><img src="./Wurlitzer electric piano.jpg" alt="Wurlitzer piano" width="120"></td>
+            <td>The Wurlitzer electric piano is another electro-mechanical instrument. Instead of calling it an electric
+                piano, the company used the phrase "Electronic Piano" as its trademark.</td>
+            <td>$1600</td>
+        </tr>
+
+        <tr class="row row3">
+            <td class="photo"><img src="./Clavinet.jpg" alt="Clavinet" width="120"></td>
+            <td>The Clavinet is an electronically amplified clavichord manufactured by Hohner. Each key strikes a string
+                with a rubber tip, producing a bright, guitar-like sound.</td>
+            <td>$1200</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
